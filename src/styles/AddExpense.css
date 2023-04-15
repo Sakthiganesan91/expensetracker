@@ -1,0 +1,22 @@
+.addExpense {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 250px;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(54, 29, 29, 0.377);
+  font-weight: bolder;
+}
+.ae {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addExpensebtn {
+  height: 50px;
+  width: 250px;
+  font-size: xx-large;
+  cursor: pointer;
+}

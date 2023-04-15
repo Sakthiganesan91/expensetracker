@@ -1,0 +1,33 @@
+.overallContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 48px;
+  margin-top: 36px;
+  color: rgba(255, 0, 0, 0.817);
+}
+
+.filter_container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 16px;
+
+  align-items: center;
+  background-color: rgba(54, 29, 29, 0.377);
+}
+.label {
+  margin-right: 24px;
+  font-size: larger;
+  font-weight: bold;
+}
+
+select {
+  width: 100px;
+  height: 35px;
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  outline: none;
+  color: rgba(255, 0, 0, 0.817);
+}

@@ -1,0 +1,41 @@
+.expenseContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 2rem 5%;
+  padding: 0.5em 0.25em;
+  background-color: rgba(54, 29, 29, 0.377);
+  color: white;
+  box-shadow: 5px 5px 5px rgb(132, 122, 122);
+}
+.date_titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.date_titleContainer h1 {
+  margin-left: 0.5rem;
+}
+.expenseContainer h2 {
+  color: rgba(255, 0, 0, 0.817);
+}
+
+.message {
+  border: 1px solid rgba(54, 29, 29, 0.377);
+  color: rgba(255, 0, 0, 0.817);
+  border-radius: 10px;
+  background-color: rgba(54, 29, 29, 0.377);
+  width: 50%;
+  padding: 8px 16px;
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+.messageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
